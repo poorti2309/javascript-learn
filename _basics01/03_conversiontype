@@ -29,3 +29,5 @@ console.log(booleanIsLoggedIn)
 // null =>false
 // NaN => false
 
+///////////////////////////////Read OPERATIONS From hitesh github repository also through mdn resources website////////////////////////////////
+
