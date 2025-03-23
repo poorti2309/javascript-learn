@@ -1,0 +1,31 @@
+let score = NaN
+console.log(typeof score)
+console.log(typeof(score))
+
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber)
+console.log(valueInNumber)
+console.log(score)
+
+// Converting to number
+// "33" => 33
+// "33abc" => NaN
+// true => 1; false => 0
+// null => 0
+// undefined => NaN
+// "poorti" => NaN
+//NaN => NaN
+
+let isLoggedIn = NaN
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn)
+
+//Converting to boolean
+// 1 => true; 0 => false
+// "" => false
+// "poorti" => true 
+// undefined => false
+// -90 => true
+// null =>false
+// NaN => false
+
