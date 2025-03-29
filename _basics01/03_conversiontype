@@ -1,4 +1,4 @@
-let score = NaN
+ let score = NaN
 console.log(typeof score)
 console.log(typeof(score))
 
@@ -16,7 +16,7 @@ console.log(score)
 // "poorti" => NaN
 //NaN => NaN
 
-let isLoggedIn = NaN
+ let isLoggedIn = NaN
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn)
 
