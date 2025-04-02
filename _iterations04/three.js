@@ -25,6 +25,25 @@ for (const greet of greetings){
 //  console.log(map);
 
  for (const[key, value] of map) {
-    console.log(map.set(key, ':-', value));
+    //console.log(map.set(key, ':-', value));
     
  }
+
+ const myobject = {
+    js: 'javascript',
+    cpp: 'C++',
+    rb: 'Ruby',
+    swift: "swift by apple"
+ }
+
+ for (const key in myobject){
+   // console.log(`${key} shortcut is for ${myobject[key]}`);
+ }
+
+ const programming = ["js", "rb", "py", "java", "c++"]
+
+ for (const key in programming) {
+    console.log(programming[key]);
+ }
+
+ // Map par loop nhi chalta kyuki Map is not iterable one
